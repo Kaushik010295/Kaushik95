@@ -11,17 +11,47 @@
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link href="style.css" rel="stylesheet">
 
-
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+  }
+  body
+  {
+  background-color:#273746;
+  }
+  </style>
 </head>
 <body>
-<body bgcolor="blue">
 	<center>
-		<h1>Welcome to Glass Hut</h1>
+		<h1 style="color:indianred">Welcome to Glass Hut</h1>
 	</center>
 	<hr>
+	<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+	<div class="navbar-header">
+	<a class="navbar-brand" href="#">GLASS HUT </a>
+	</div>
+	</div>
+	<ul class="nav navbar-nav">
+	<li class="active"> <a href="#"> Home </a></li>
+	<li> <a href="#"> About </a>
+	<li> <a href="#" > Sign in</a>
+	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+	<li><a href="men.html"> MEN'S SECTION</a></li>
+	<li> <a href="women.html"> WOMEN'S SECTION</a></li>
+	<li> <a href="child.html"> KID'S SECTION </a></li>
+	<li> <a href="acc.html"> ACCESORIES</a></li>
+	</ul>
+	</li>
+	
+	</ul><br>
 	<div class="container">
 		<br>
-
+      <center> <h2 style="color:indianred"><b><i><u>WORLD CLASS COLLECTION OF GLASSES </u></i></b></h2></center>
 		<div id="FirstCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#FirstCarousel" data-slide-to="0" class="active"></li>
@@ -29,20 +59,20 @@
 				<li data-target="#FirstCarousel" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner" role="list">
+				<div class="item">
+					<img src="Images/goggs1.jpg" alt="glass1" width="2000">
+					<div class="carousel-caption">
+						<h1>SUN GLASSES</h1>
+					</div>
+				</div>
 				<div class="item active">
-					<img src="Images/goggs1.jpg" alt="glass1" width="1000">
+					<img src="Images/goggs2.jpg" alt="glass2" width="2000">
 					<div class="carousel-caption">
 						<h1>SUN GLASSES</h1>
 					</div>
 				</div>
 				<div class="item">
-					<img src="Images/goggs2.jpg" alt="glass2" width="1000">
-					<div class="carousel-caption">
-						<h1>SUN GLASSES</h1>
-					</div>
-				</div>
-				<div class="item">
-					<img src="Images/gog.jpg" alt="glass3" width="1000">
+					<img src="Images/gog.jpg" alt="glass3" width="2000">
 					<div class="carousel-caption">
 						<h1>SUN GLASSES</h1>
 					</div>
@@ -58,10 +88,38 @@
 				<span class="sr-only"> Next</span>
 			</a>
 		</div>
-		<img src="Images/goggs4.jpg" height="200" width="200" border="20">
-		<img src="Images/goggs5.jpg" height="200" width="200" border="20">
-		<img src="Images/goggs6.jpg" height="200" width="200" border="20">
-		<img src="Images/goggs7.jpg" height="200" width="200" border="20">
-		<img src="Images/goggs8.jpg" height="200" width="200" border="20">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="men.html"> <img src="Images/gm1.jpg" height="300"
+					width="400" border="20"><h1 style="color:indianred"><dt>CLICK HERE FOR MEN'S </h1></a>
+			</div>
+			<div class="col-md-6">
+				<a href="women.html"> <img src="Images/gw9.jpg" height="300"
+					width="400" border="20"><h1 style="color:indianred">CLICK HERE FOR WOMEN'S </h1></a>
+			</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="row">
+			<div class="col-md-6">
+				<a href="child.html"> <img src="Images/gc1.jpg" height="300"
+					width="400" border="20"><h1 style="color:indianred">CLICK HERE FOR KID'S</h1></a>
+			</div>
+	
+			<div class="col-md-6">
+				<a href="acc.html"> <img src="Images/acc6.jpg" height="300"
+					width="400" border="20" ><h1 style="color:indianred">CLICK HERE FOR ACCESORIES</h1></a>
+			</div>
+
+		</div>
+		</div>
 </body>
 </html>
